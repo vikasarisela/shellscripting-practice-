@@ -8,8 +8,8 @@ echo "printing $Person1 and $Person2"
 
 output=$(date)
 
-starttime=$(date, %s)
+starttime=$(date, +%s)
 sleep 10 
-endtime=$(date, %s)
-total_time=$(($endtime - $starttime))
+endtime=$(date, +%s)
+total_time=$((endtime -  starttime))
 echo "print $total_time"

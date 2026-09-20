@@ -5,3 +5,4 @@ Person1="$0"
 Person2="$1"
 echo "hi i am $Person"
 echo "printing $Person1 and $Person2"
+

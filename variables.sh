@@ -9,7 +9,7 @@ echo "printing $Person1 and $Person2"
 output=$(date)
 
 starttime=$(date +%s)
-sleep 10 
+sleep 2 
 endtime=$(date +%s)
 total_time=$((endtime -  starttime))
 echo "print $total_time"

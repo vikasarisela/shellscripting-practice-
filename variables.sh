@@ -22,3 +22,15 @@ fruits=("orange", "apple", "kiwi")
 
 echo "${fruits[0]}"
 echo "${fruits[@]}"
+
+
+# Conditions
+
+echo "provide number"
+READ number
+if [ $number -lt 10 ]; then 
+echo "give number $number is less than 10"
+elif [ $number -le 10]; then 
+echo "give number $number equal to 10"
+else 
+echo "give number $number greater than 10"

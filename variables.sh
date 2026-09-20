@@ -16,4 +16,9 @@ echo "print $total_time"
 
 echo "print varialbe bashrc of specific user $course"
 echo "special variables $PWD"
-echo "$@"
+echo "prints the arguments passed in command line $@"
+
+fruits=("orange", "apple", "kiwi")
+
+echo "${fruits[0]}"
+echo "${fruits[@]}"

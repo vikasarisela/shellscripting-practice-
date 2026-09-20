@@ -13,3 +13,5 @@ sleep 10
 endtime=$(date +%s)
 total_time=$((endtime -  starttime))
 echo "print $total_time"
+
+echo "print varialbe bashrc of specific user $course"
